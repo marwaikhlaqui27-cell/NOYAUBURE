@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NOYAU PURE – نواة خالصة : l'or liquide des noyaux de dattes du désert marocain, transformé en soins capillaires naturels d'exception. Coopérative de Zagora et Erfoud." />
+  <title>NOYAU PURE — نواة خالصة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body>
+
+  <!-- ============================ HEADER / NAV ============================ -->
+  <header class="site-header" id="accueil">
+    <div class="container header-inner">
+      <a class="brand" href="#accueil" aria-label="NOYAU PURE — accueil">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="42" height="42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="24" cy="24" rx="15" ry="20" fill="#4A3025"/>
+            <path d="M24 5c4 7 4 31 0 38" stroke="#B38B52" stroke-width="2"/>
+            <path d="M24 9c-5 7-5 23 0 30" stroke="#E8D8C3" stroke-width="1.4" opacity=".7"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">NOYAU PURE</span>
+          <span class="brand-ar" lang="ar">نواة خالصة</span>
+        </span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a>
+        <a href="#mission">Notre Mission</a>
+        <a href="#gamme">Nos Produits</a>
+        <a href="#cooperative">La Coopérative</a>
+        <a href="#nawa">Nawa</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#gamme" class="btn btn-primary nav-cta">Découvrir la gamme</a>
+    </div>
+  </header>
+
+  <!-- ============================ HERO ============================ -->
+  <section class="hero" aria-label="Présentation">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="dune dune-1"></span>
+      <span class="dune dune-2"></span>
+      <span class="dune dune-3"></span>
+      <span class="sun"></span>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Coopérative marocaine · Zagora &amp; Erfoud</p>
+        <h1>L'or liquide des noyaux de dattes<br />du désert marocain.</h1>
+        <p class="hero-sub">Transformé en soins capillaires naturels d'exception.</p>
+        <div class="hero-actions">
+          <a href="#gamme" class="btn btn-primary">Découvrir la gamme</a>
+          <a href="#mission" class="btn btn-ghost">Notre histoire</a>
+        </div>
+      </div>
+
+      <!-- Composition visuelle : flacons ambrés + noyaux de datte -->
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 420 460" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#C99A5E"/>
+              <stop offset="1" stop-color="#7A4E27"/>
+            </linearGradient>
+            <linearGradient id="amberDark" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#A9763F"/>
+              <stop offset="1" stop-color="#5C3A1E"/>
+            </linearGradient>
+            <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+              <stop offset="0" stop-color="#FAF7F0" stop-opacity=".55"/>
+              <stop offset="1" stop-color="#FAF7F0" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <ellipse cx="210" cy="430" rx="180" ry="20" fill="#4A3025" opacity=".18"/>
+          <circle cx="210" cy="200" r="200" fill="url(#glow)"/>
+
+          <!-- Grand flacon -->
+          <g transform="translate(120 70)">
+            <rect x="44" y="0" width="32" height="26" rx="4" fill="#4A3025"/>
+            <rect x="38" y="24" width="44" height="10" fill="#B38B52"/>
+            <path d="M20 60c0-22 80-22 80 0v150c0 30-80 30-80 0Z" fill="url(#amber)"/>
+            <path d="M28 70c0-18 64-18 64 0v140c0 26-64 26-64 0Z" fill="url(#amberDark)" opacity=".4"/>
+            <rect x="34" y="110" width="52" height="44" rx="3" fill="#FAF7F0" opacity=".14"/>
+          </g>
+
+          <!-- Petit flacon -->
+          <g transform="translate(40 200)">
+            <rect x="18" y="0" width="16" height="14" rx="3" fill="#4A3025"/>
+            <rect x="14" y="12" width="24" height="6" fill="#B38B52"/>
+            <path d="M10 36c0-12 34-12 34 0v90c0 18-34 18-34 0Z" fill="url(#amber)"/>
+            <rect x="14" y="60" width="26" height="22" rx="2" fill="#FAF7F0" opacity=".16"/>
+          </g>
+
+          <!-- Noyaux de datte -->
+          <g transform="translate(280 300)">
+            <ellipse cx="0" cy="0" rx="20" ry="30" fill="#4A3025"/>
+            <path d="M0-26c6 10 6 42 0 52" stroke="#B38B52" stroke-width="2"/>
+            <ellipse cx="40" cy="10" rx="16" ry="24" fill="#3a241a"/>
+            <path d="M40-12c5 8 5 40 0 48" stroke="#B38B52" stroke-width="1.6"/>
+            <ellipse cx="70" cy="-6" rx="14" ry="22" fill="#4A3025" opacity=".9"/>
+            <path d="M70-24c4 7 4 40 0 48" stroke="#B38B52" stroke-width="1.4"/>
+          </g>
+
+          <!-- Feuille de palmier -->
+          <path d="M360 60c-30 50-30 130 0 180" stroke="#8A9A78" stroke-width="3" fill="none"/>
+          <path d="M355 90c-18 4-30 14-34 28M355 120c-20 4-34 16-40 32M355 150c-20 4-36 16-44 32M355 180c-18 6-30 18-36 34" stroke="#8A9A78" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ============================ MISSION ============================ -->
+  <section class="section mission" id="mission">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Notre Mission</p>
+        <h2>Transformer le déchet en trésor.</h2>
+        <p class="section-lead">
+          Chaque année, les coopératives de Zagora et d'Erfoud rejettent des tonnes de noyaux de dattes.
+          NOYAU PURE les valorise : nous extrayons une huile précieuse, riche et nourrissante,
+          pour fabriquer des soins capillaires 100 % naturels — tout en soutenant les femmes rurales du Sud marocain.
+        </p>
+      </header>
+
+      <div class="values">
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M8 24a16 16 0 0 1 32 0" /><path d="M40 24a16 16 0 0 1-32 0" /><path d="M24 8v32" />
+            </svg>
+          </span>
+          <h3>Économie circulaire</h3>
+          <p>Un résidu oublié devient une matière première noble. Rien ne se perd, tout se transforme.</p>
+        </article>
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M24 4c10 8 16 16 16 26a16 16 0 0 1-32 0C8 20 14 12 24 4Z" /><path d="M24 16v20" />
+            </svg>
+          </span>
+          <h3>100 % naturel</h3>
+          <p>Aucun silicone, aucun composé de synthèse. La pureté du noyau de datte, intacte.</p>
+        </article>
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="18" cy="20" r="8" /><circle cx="32" cy="28" r="8" /><path d="M18 28v10M32 36v6" />
+            </svg>
+          </span>
+          <h3>Impact féminin</h3>
+          <p>Des femmes rurales qui façonnent, extraient et transforment — au cœur de la chaîne de valeur.</p>
+        </article>
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M24 6l4 12 12 1-9 8 3 13-10-7-10 7 3-13-9-8 12-1Z" />
+            </svg>
+          </span>
+          <h3>Innovation &amp; IA</h3>
+          <p>Une formulation guidée par l'intelligence artificielle, au service d'un savoir-faire ancestral.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ GAMME ============================ -->
+  <section class="section gamme" id="gamme">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Notre Gamme</p>
+        <h2>Une collection de cinq soins d'exception.</h2>
+        <p class="section-lead">Chaque formule célèbre l'huile de noyau de datte — nourrissante, fortifiante, précieuse.</p>
+      </header>
+
+      <div class="products">
+        <!-- 1. Shampoing -->
+        <article class="product-card">
+          <div class="product-visual" aria-hidden="true">
+            <svg viewBox="0 0 120 160" width="120" height="160" xmlns="http://www.w3.org/2000/svg">
+              <rect x="44" y="6" width="32" height="22" rx="3" fill="#4A3025"/>
+              <rect x="38" y="26" width="44" height="10" fill="#B38B52"/>
+              <path d="M30 44c0-14 60-14 60 0v96c0 16-60 16-60 0Z" fill="url(#amber)"/>
+              <rect x="40" y="74" width="40" height="34" rx="3" fill="#FAF7F0" opacity=".16"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <h3>Shampoing Fortifiant</h3>
+            <p class="product-vol">300 ML</p>
+            <p>Nettoie en douceur et renforce la fibre capillaire grâce à l'huile de noyau de datte.</p>
+          </div>
+        </article>
+
+        <!-- 2. Masque -->
+        <article class="product-card">
+          <div class="product-visual" aria-hidden="true">
+            <svg viewBox="0 0 120 160" width="120" height="160" xmlns="http://www.w3.org/2000/svg">
+              <rect x="30" y="40" width="60" height="90" rx="10" fill="url(#amber)"/>
+              <rect x="44" y="22" width="32" height="22" rx="3" fill="#4A3025"/>
+              <rect x="40" y="42" width="40" height="8" fill="#B38B52"/>
+              <rect x="40" y="70" width="40" height="30" rx="3" fill="#FAF7F0" opacity=".16"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <h3>Masque Réparateur Intense</h3>
+            <p class="product-vol">100 ML</p>
+            <p>Un bain de matière qui régénère les cheveux abîmés et restitue souplesse et brillance.</p>
+          </div>
+        </article>
+
+        <!-- 3. Huile capillaire -->
+        <article class="product-card">
+          <div class="product-visual" aria-hidden="true">
+            <svg viewBox="0 0 120 160" width="120" height="160" xmlns="http://www.w3.org/2000/svg">
+              <rect x="48" y="4" width="24" height="18" rx="3" fill="#4A3025"/>
+              <rect x="42" y="20" width="36" height="8" fill="#B38B52"/>
+              <path d="M36 34c0-10 48-10 48 0v108c0 14-48 14-48 0Z" fill="url(#amber)"/>
+              <rect x="44" y="70" width="32" height="28" rx="3" fill="#FAF7F0" opacity=".18"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <h3>Huile Capillaire Précieuse</h3>
+            <p class="product-vol">50 ML</p>
+            <p>L'essence pure du noyau de datte, une huile nourrissante pour éclat et discipline.</p>
+          </div>
+        </article>
+
+        <!-- 4. Crème-sérum sans rinçage -->
+        <article class="product-card">
+          <div class="product-visual" aria-hidden="true">
+            <svg viewBox="0 0 120 160" width="120" height="160" xmlns="http://www.w3.org/2000/svg">
+              <rect x="34" y="34" width="52" height="96" rx="12" fill="url(#amber)"/>
+              <rect x="42" y="22" width="36" height="14" rx="3" fill="#4A3025"/>
+              <rect x="44" y="64" width="32" height="28" rx="3" fill="#FAF7F0" opacity=".16"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <h3>Crème-Sérum Sans Rinçage</h3>
+            <p class="product-vol">150 ML</p>
+            <p>Protège toute la journée, discipline les longueurs et sublime sans alourdir.</p>
+          </div>
+        </article>
+
+        <!-- 5. Sérum cils -->
+        <article class="product-card">
+          <div class="product-visual" aria-hidden="true">
+            <svg viewBox="0 0 120 160" width="120" height="160" xmlns="http://www.w3.org/2000/svg">
+              <rect x="50" y="4" width="20" height="14" rx="3" fill="#4A3025"/>
+              <rect x="46" y="16" width="28" height="6" fill="#B38B52"/>
+              <path d="M44 26c0-8 32-8 32 0v118c0 12-32 12-32 0Z" fill="url(#amber)"/>
+              <rect x="50" y="60" width="20" height="22" rx="3" fill="#FAF7F0" opacity=".2"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <h3>Sérum Boostant Cils</h3>
+            <p class="product-vol">7 ML</p>
+            <p>Un concentré précieux pour fortifier et sublimer les cils au quotidien.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ COOPÉRATIVE ============================ -->
+  <section class="section cooperative" id="cooperative">
+    <div class="container">
+      <div class="coop-grid">
+        <div class="coop-copy">
+          <p class="eyebrow">La Coopérative</p>
+          <h2>Un projet ancré dans le terroir marocain.</h2>
+          <p>
+            De Zagora à Erfoud, NOYAU PURE noue des partenariats directs avec les producteurs locaux
+            des oasis du Sud. Les noyaux, autrefois rejetés, sont collectés, séchés et transformés
+            par des coopératives de femmes rurales — un savoir-faire transmis et réinventé.
+          </p>
+          <ul class="coop-list">
+            <li>Les régions de <strong>Zagora</strong> et <strong>Erfoud</strong>, terres de dattiers.</li>
+            <li>Partenariats directs avec les <strong>producteurs locaux</strong>.</li>
+            <li>Valorisation des <strong>noyaux de dattes</strong> jusque-là perdus.</li>
+            <li>Autonomisation des <strong>femmes rurales</strong> du Sud marocain.</li>
+          </ul>
+        </div>
+
+        <div class="coop-stats" aria-label="Chiffres clés">
+          <div class="stat">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Produits</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Régions partenaires</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">100<span class="unit">%</span></span>
+            <span class="stat-label">Naturel</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">0</span>
+            <span class="stat-label">Déchet valorisé à perte</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ NAWA — ASSISTANTE VIRTUELLE ============================ -->
+  <section class="section nawa" id="nawa">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Assistante virtuelle</p>
+        <h2>Rencontrez Nawa.</h2>
+        <p class="section-lead">Une interface de conversation pour vous guider à travers l'univers NOYAU PURE.</p>
+      </header>
+
+      <div class="chat-window" aria-label="Aperçu de l'interface Nawa">
+        <div class="chat-header">
+          <span class="chat-avatar" aria-hidden="true">
+            <svg viewBox="0 0 40 40" width="40" height="40">
+              <circle cx="20" cy="20" r="20" fill="#8A9A78"/>
+              <path d="M20 10c5 4 8 9 8 14a8 8 0 0 1-16 0c0-5 3-10 8-14Z" fill="#FAF7F0"/>
+            </svg>
+          </span>
+          <div>
+            <p class="chat-name">Nawa</p>
+            <p class="chat-status">Assistante NOYAU PURE · en ligne</p>
+          </div>
+        </div>
+
+        <div class="chat-body">
+          <div class="bubble bubble-bot">
+            <p>Bonjour, je suis Nawa. Je suis là pour vous accompagner dans la découverte de l'or liquide des noyaux de dattes. Posez-moi vos questions.</p>
+          </div>
+
+          <ul class="suggestions">
+            <li>Quels sont vos produits ?</li>
+            <li>C'est quoi l'huile de noyau de datte ?</li>
+            <li>Où commander ?</li>
+            <li>Quels sont les ingrédients naturels ?</li>
+          </ul>
+        </div>
+
+        <div class="chat-input" aria-hidden="true">
+          <span class="chat-placeholder">Écrivez votre message…</span>
+          <span class="chat-send">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l16-8-6 16-3-6-7-2Z"/></svg>
+          </span>
+        </div>
+      </div>
+
+      <p class="nawa-note">Aperçu visuel — interface de présentation uniquement.</p>
+    </div>
+  </section>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <ellipse cx="24" cy="24" rx="15" ry="20" fill="#B38B52"/>
+              <path d="M24 5c4 7 4 31 0 38" stroke="#FAF7F0" stroke-width="2"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">NOYAU PURE</span>
+            <span class="brand-ar" lang="ar">نواة خالصة</span>
+          </span>
+        </div>
+        <p class="footer-intro">
+          L'or liquide des noyaux de dattes du désert marocain, transformé en soins capillaires
+          naturels d'exception par une coopérative ancrée à Zagora et Erfoud.
+        </p>
+      </div>
+
+      <nav class="footer-links" aria-label="Liens de navigation">
+        <h4>Explorer</h4>
+        <a href="#accueil">Accueil</a>
+        <a href="#mission">Notre Mission</a>
+        <a href="#gamme">Nos Produits</a>
+        <a href="#cooperative">La Coopérative</a>
+        <a href="#nawa">Nawa</a>
+      </nav>
+
+      <form class="footer-contact" aria-label="Nous contacter">
+        <h4>Contact</h4>
+        <label>Nom<input type="text" name="nom" placeholder="Votre nom" autocomplete="name" /></label>
+        <label>Courriel<input type="email" name="email" placeholder="vous@exemple.com" autocomplete="email" /></label>
+        <label>Message<textarea name="message" rows="3" placeholder="Votre message"></textarea></label>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+    </div>
+
+    <div class="footer-base">
+      <div class="container footer-base-inner">
+        <span class="made-in">Made in Morocco 🇲🇦</span>
+        <span class="copyright">© 2026 NOYAU PURE — نواة خالصة. Tous droits réservés.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
